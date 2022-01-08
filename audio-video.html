@@ -21,16 +21,27 @@
         h1 {
             text-align: center;
         }
+
+        iframe {
+            margin: 0 auto;
+            display: flex;
+        }
     </style>
 </head>
 
 <body>
     <h1>Video Player</h1>
-    <video src="/media/video.mp4" height="500px" width="450px" controls>
+    <video src="/media/video.mp4" height="315px" width="560px" controls muted>
     </video>
-    <hr>
+    <br>
+
     <h1>Audio player</h1>
     <audio src="./media/audio.mp3" controls></audio>
+    <br>
+    <h1>youtube video playder</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vofa3MFngPM" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
 
 
 
